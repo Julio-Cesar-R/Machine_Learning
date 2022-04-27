@@ -1,0 +1,32 @@
+#PAGINA IMPORTANTE https://scikit-learn.org/stable/index.html
+pip install numpy
+pip install matplotlib
+pip install pandas
+pip install seaborn
+pip install -U scikit-learn
+pip install jupyter
+pip install jupyterlab
+pip install beautifulsoup4
+pip install ipywidgets
+jupyter nbextension enable --py widgetsnbextension
+pip install plotly=4.3.0 (Instalen la ultima version disponible)
+pip install plotly_express
+_______________________________________
+Librerias de excel
+-pip install xlrd
+-pip install openpyxl
+----------------------------------------
+PLOTLY
+pip install plotly_express
+pip install plotly == 4.3.0
+pip install "notebook>=5.3" "ipywidgets>=7.2"
+________________________________________________-
+pip install jupyter_contrib_nbextensions && jupyter contrib nbextension install
+
+pip install autopep8
+
+pip install yapf
+
+---------------------------------------
+install the parser: pip install lxml
+pip install BeautifulSoup4 requests
