@@ -21,7 +21,7 @@ def plotting_db(X, y, classifier):
     
     #PLOT ALL SAMPLES
     for index, item in enumerate(np.unique(y)):
-        plt.scatter(x=X[y == item, 0], y=X[y == item, 1],alpha=0.8, c=colors[index], s=50, edgecolor='k',
+        plt.scatter(x=X[y == item, 0], y=X[y == item, 1],alpha=0.8, c=colors[index], s=50, facecolor='k',
         marker=markers[index], label=item)
 
     plt.xlabel('petal length std')
